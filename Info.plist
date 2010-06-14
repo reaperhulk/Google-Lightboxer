@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.2</string>
+	<string>1.1.4</string>
 	<key>CFBundleVersion</key>
-	<string>4</string>
+	<string>6</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -420,7 +420,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://github.com/reaperhulk/Google-Lightboxer/raw/master/googleLightbox-update.plist</string>
+	<string>http://langui.sh/extensions/googleLightbox-update.plist</string>
 	<key>Website</key>
 	<string>http://langui.sh/safari-extensions/</string>
 </dict>

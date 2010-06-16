@@ -20,10 +20,12 @@ triggerColorBox = function() {
 		},
 		rel:'gImages',
 		current:"{current}/{total}",
-		maxWidth:'100%',
-		maxHeight:'100%',
+		maxWidth:'98%',
+		maxHeight:'98%',
 		minWidth:'200',
-		minHeight:'200'
+		minHeight:'200',
+		transition: 'fade',
+		speed: 150
 	})
 }
 

@@ -18,7 +18,7 @@
     The following rules are ordered and tabbed in a way that represents the
     order/nesting of the generated HTML, so that the structure easier to understand.
 */
-#cboxOverlay{background:#000;}
+#cboxOverlay{background:#090909;}
 
 #colorbox{}
     #cboxContent{margin-top:20px;}

@@ -30,6 +30,7 @@ triggerColorBox = function() {
 }
 
 $(window).load(function() {
+	triggerColorBox();
 	$('#ImgContent a').live('mouseover',function(event) {
 		if(event.metaKey) {
 			event.stopPropagation();
@@ -43,7 +44,7 @@ $(window).load(function() {
 		function(event) {
 			if(event.metaKey) {
 				event.stopPropagation();
-				triggerColorBox()
+				$(this).removeClass('cboxElement');
 			}
 		})
 })

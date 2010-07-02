@@ -21,9 +21,9 @@
 #cboxOverlay{background:#090909;}
 
 #colorbox{}
-    #cboxContent{margin-top:20px;}
+    #cboxContent{margin-top:63px;}
         #cboxLoadedContent{background:#000; padding:5px;}
-        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxTitle{position:absolute; top:-63px; left:0; width:100%; color:#ccc;}
         #cboxTitle a{color:#fff !important;}
         #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
         #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}

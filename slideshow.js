@@ -15,7 +15,10 @@ triggerColorBox = function() {
 			parsedUrl = href.split('?')[1].split('&')[0].split('=')[1];
 			var name = parsedUrl.split('/').pop().split('.');
 			name.pop();
-			name = '<a href="'+parsedUrl+'">'+name.join()+'</a>'
+			parentId = $(this).parent().attr('id');
+			var textId = '#'+parentId.replace('tDataImage','tDataText');
+			metadata = $(textId);
+			name = '<div style="float:right;"><a href="'+parsedUrl+'">'+name.join()+'</a></div>'+metadata.html()
 			return name;
 		},
 		rel:'gImages',
